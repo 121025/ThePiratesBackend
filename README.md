@@ -4,4 +4,5 @@
 (1) 압축파일을 다운로드하고 압축해제 후 IntelliJ로 Backend 폴더를 엽니다.  
 (2) 의존성과 플러그인들이 설치되는 동안 기다립니다.  
 (3) Run -> Run...을 클릭하고 BackendApplication을 선택합니다.  
-(4) BackendApplication이 없을 경우 Edit Configurations...을 선택하고 Templates - Application을 선택합니다. Main class로 BackendApplication을 선택한 후 OK를 클릭합니다.
+(4) BackendApplication이 없을 경우 Edit Configurations...을 선택하고 Templates에서 Application을 선택합니다. Main class로 BackendApplication을 선택한 후 OK를 클릭합니다.
+(5) Spring Boot가 완전히 시작한 후에 http://localhost:8081/h2-console 에 접속합니다.
