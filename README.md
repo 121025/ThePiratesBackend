@@ -30,5 +30,5 @@ create table options_t(
   primary key(name),  
   foreign key(merch_id) references merchandise_t(id)  
 );
-<br/>
+
 3. API 사용 가이드  
