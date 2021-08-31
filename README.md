@@ -21,8 +21,9 @@ User Name: sa
   type varchar,  
   closing varchar,  
   primary key(id)  
-);
-> create table options_t(  
+);  
+  
+create table options_t(  
   merch_id long,  
   name varchar,  
   price int,  
