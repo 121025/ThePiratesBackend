@@ -12,7 +12,9 @@
 Driver Class: org.h2.Driver  
 JDBC URL: jdbc:h2:mem:~/db  
 User Name: sa  
-(6) 테이블 생성 SQL을 입력하고 Run을 클릭합니다.<br/><br/>
+(6) 테이블 생성 SQL을 입력하고 Run을 클릭합니다.<br/>
+<br/>
+
 2. 테이블 생성 SQL  
 > create table merchandise_t(  
   id long auto_increment not null,  
@@ -29,7 +31,7 @@ create table options_t(
   stock int,  
   primary key(name),  
   foreign key(merch_id) references merchandise_t(id)  
-);<br/>  
+);<br/>
 <br/>
 
 3. API 사용 가이드  
