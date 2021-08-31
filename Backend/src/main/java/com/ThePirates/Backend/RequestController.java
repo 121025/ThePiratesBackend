@@ -46,7 +46,7 @@ public class RequestController {
     }
 
     //상품 목록 조회
-    @GetMapping(value = "/merch")
+    @GetMapping(value = "/merchandise")
     public List<Info> getInfo() {
         List<Info> result = new ArrayList<>();
         List<Object[]> list = em.createNativeQuery("select m.name, m.description, o.price from merchandise_t m " +
@@ -66,7 +66,7 @@ public class RequestController {
     }
 
     //상품 상세조회
-    @GetMapping(value = "/merch/{id}")
+    @GetMapping(value = "/merchandise/{id}")
     public DetailedInfo getDetailedInfo(@PathVariable("id") long id) {
         List<DetailedInfoOptions> options = new ArrayList<>();
         Object[] info = (Object[]) em.createNativeQuery("select name, description, type as delivery " +
