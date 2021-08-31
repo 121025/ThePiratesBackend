@@ -37,7 +37,7 @@ create table options_t(
 Postman이나 Insomnia 등을 이용해서 요청을 보냅니다.  
 (1) 점포 추가  
 POST http://localhost:8081/register  
-Body에 점포 정보를 입력하고 요청을 보냅니다.(trailing comma를 지원하지 않습니다)
+Body에 점포 정보를 입력하고 요청을 보냅니다.(trailing comma를 지원하지 않습니다)  
 (2) 상품 목록 조회  
 GET http://localhost:8081/merchandise  
 (3) 상품 상세조회  
