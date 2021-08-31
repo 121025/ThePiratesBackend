@@ -32,3 +32,5 @@ create table options_t(
 );
 <br/>
 3. API 사용 가이드  
+Postman이나 Insomnia 등을 이용해서 요청을 보냅니다.  
+(1) 점포 추가  
