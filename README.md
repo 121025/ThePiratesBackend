@@ -30,6 +30,7 @@ create table options_t(
   primary key(name),  
   foreign key(merch_id) references merchandise_t(id)  
 );<br/>  
+
 3. API 사용 가이드  
 Postman이나 Insomnia 등을 이용해서 요청을 보냅니다.  
 (1) 점포 추가  
