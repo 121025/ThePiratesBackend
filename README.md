@@ -8,4 +8,8 @@
 (3-2) 포트가 이미 사용 중일 경우 src - main - resources - application.properties 파일에서 server.port를 다른 번호로 지정합니다.  
 (4) Spring Boot가 완전히 시작한 후에 http://localhost:8081/h2-console/ 에 접속합니다.  
 (5) 아래 그림과 같이 설정하고 Connect를 클릭합니다.  
-![image](https://user-images.githubusercontent.com/12444076/131545281-bd72b56e-35c4-498f-b796-bce00e3f99c4.png)
+![image](https://user-images.githubusercontent.com/12444076/131545281-bd72b56e-35c4-498f-b796-bce00e3f99c4.png)  
+Driver Class: org.h2.Driver  
+JDBC URL: jdbc:h2:mem:~/db  
+User Name: sa  
+(6) 테이블 생성 SQL을 입력하고 Run을 클릭합니다.
