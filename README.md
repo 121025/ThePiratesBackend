@@ -36,14 +36,14 @@ create table options_t(
 3. API 사용 가이드  
 Postman이나 Insomnia 등을 이용해서 요청을 보냅니다.  
 (1) 점포 추가  
-POST http://localhost:8081/register  
+POST http://localhost:8081/api/register  
 Body에 점포 정보를 JSON으로 입력하고 요청을 보냅니다.(trailing comma를 지원하지 않습니다)  
 (2) 상품 목록 조회  
-GET http://localhost:8081/merchandise  
+GET http://localhost:8081/api/merchandise  
 (3) 상품 상세조회  
-GET http://localhost:8081/merchandise/{상품ID}  
-ex) GET http://localhost:8081/merchandise/1  
+GET http://localhost:8081/api/merchandise/{상품ID}  
+ex) GET http://localhost:8081/api/merchandise/1  
 (4) 수령일 선택 목록  
-GET http://localhost:8081/delivery/{상품ID}  
+GET http://localhost:8081/api/delivery/{상품ID}  
 (5) 점포 삭제  
-DELETE http://localhost:8081/delete/{상품ID}
+DELETE http://localhost:8081/api/delete/{상품ID}
